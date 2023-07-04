@@ -20,7 +20,7 @@ PS5
 PS4
 PS VR2
 
-DUALsENSE 무선 컨트롤러
+DualSense 무선 컨트롤러
 PLUSE 3D 무선 헤드셋
 DUALSHOCK 4 무선 컨트롤러
 PS5 및 PS4용 액세서리
@@ -50,6 +50,7 @@ PS Store
 기프트 카드 구매
 PS Plus 정기 서비스 가입
 판매점 안내
+.
 
 고객지원 ↓
 고객지원
@@ -364,8 +365,8 @@ Interactive
 Entertainment
 
 &copy; 2023 Sony Interactive Entertainment LLC
-모든 콘텐츠, 게임 타이틀, 상호 및/또는 상품 외장, 상표, 아트워크, 관련 이미지는 각 소유주의 상표권 및/또는 저작권을 가진 자료입니다. All rights reserved. 추가 정보
 
+모든 콘텐츠, 게임 타이틀, 상호 및/또는 상품 외장, 상표, 아트워크, 관련 이미지는 각 소유주의 상표권 및/또는 저작권을 가진 자료입니다. All rights reserved. 추가 정보
 
 회사명 : Sony Interactive Entertainment Inc.
 
