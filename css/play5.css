@@ -1,0 +1,47 @@
+
+
+
+
+
+
+
+.main_game .itm {
+    height: calc(100vh - 200px);
+}
+
+.main_game .itm01 {
+    background: url(../imges/ms_ffxiv.webp)no-repeat center center/cover;
+}
+.main_game .itm02 {
+    background: url(../imges/ms_street.webp)no-repeat center center/cover;
+}
+.main_game .itm03 {
+    background: url(../imges/ms_avatar.webp)no-repeat center center/cover;
+}
+.main_game .itm04 {
+    background: url(../imges/ms_season04.webp)no-repeat center center/cover;
+}
+.main_game .itm05 {
+    background: url(../imges/ms_battle.webp)no-repeat center center/cover;
+}
+.main_game .itm06 {
+    background: url(../imges/ms_gow.webp)no-repeat center center/cover;
+}
+
+.main_news .news {
+    min-height: 300px;
+}
+
+.main_news .news01 {
+    background: url(../imges/mn01_bg.webp)no-repeat center center/cover;
+}
+.main_news .news02 {
+    background: url(../imges/mn02_bg.webp)no-repeat center center/cover;
+}
+.main_news .news03 {
+    background: url(../imges/mn_03.webp)no-repeat center center/cover;
+}
+.main_news .news04 {
+    background: url(../imges/mn_04.webp)no-repeat top center/cover;
+    height: 700px;
+}
