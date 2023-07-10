@@ -1,0 +1,109 @@
+.header {
+    background: $color-white;
+    height: 100rem;
+
+    .h_inner {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        padding: 0 60rem;
+        height: 100%;
+
+        .logo {
+            &>img {
+                position: absolute;
+                top: 50%;
+                left: 60rem;
+                transform: translate(0, -50%);
+            }
+       }
+    
+        .gnb {
+            &>ul {
+            display: flex;
+            justify-content: center;
+            align-items: center;    
+            gap: 60px;
+
+                &>li {
+                    font-size: 16rem;
+                    font-weight: 500;
+                    color: $color-black;
+                    position: relative;
+
+                    .lnb{
+                       display: none;
+                       
+                       position: absolute;
+                       top: 30rem;
+                       left: 0;
+                       width: 1000px; 
+                       background: $color-white;    
+
+                       z-index: 999;
+
+                        .l_top {
+                            display: flex;
+                            gap: 30px;
+
+                            .egg {
+                                display: flex;
+                            }
+                        }
+    
+                        .l_bottom {
+                            &>a {
+                                display: flex;  
+                                align-items: center;
+                                &>span {
+                                    font-size: 14rem;
+                                }
+                                &>strong {
+                                   font-size: 14rem;
+                                }
+                            }
+                        }
+                    }
+
+                    &:hover .lnb {
+                        display: block;
+                    }
+                    
+                    .list {
+                        display: none;
+
+                        position: absolute;
+                        top: 60rem;
+                        left: 0;
+                        z-index: 999;
+
+                        background: $color-white;
+                        width: 200rem;
+                    }
+
+                    &:hover .list {
+                        display: block;
+                    }
+                }
+            }
+        }
+    
+        &>span {
+            display: block;
+            
+            position: absolute;
+            top: 50%;
+            right: 60px;
+            transform: translate(0, -50%);
+
+            background: $color-black;
+            color: $color-white;
+            font-size: 16rem;
+            padding: 10rem 15rem;
+            border-radius: 10rem;
+        }
+    }
+
+}

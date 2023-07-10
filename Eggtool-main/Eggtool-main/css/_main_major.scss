@@ -1,0 +1,66 @@
+.main_major {
+    
+    .major_slide {
+
+        overflow: hidden;
+
+        .swiper-wrapper {
+
+            height: calc(100vh - 500rem);
+
+            .major01 {
+                background: url(../imges/mm01.png)no-repeat center 75%/cover;
+            }
+            .major02 {
+                background: url(../imges/mm02.png)no-repeat center center/cover;
+            }
+            .major03 {
+                background: url(../imges/mm03.png)no-repeat center center/cover;
+            }
+
+            .txt {
+                max-width: 1200rem;
+                width: 100%;
+                margin: 0 auto;
+                padding: 0 15rem;
+
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+
+                h2 {
+                    font-size: 36rem;
+                    font-weight: 700;
+                    line-height: 38rem;
+                    margin: 0 0 10rem 0;
+                }
+
+                p {
+                    font-size: 16rem;
+                    font-weight: 300;
+                    line-height: 20rem;
+                    margin: 0 0 70rem 0;
+                }
+
+                span {
+                    font-size: 14rem;
+                    font-weight: 500;
+                    background: $color-white;
+                    color: $color-black;
+                    padding: 20rem 40rem;
+                    border-radius: 10rem;
+
+                    &>a>i {
+                        font-size: 16rem;
+                        font-weight: 700;                        
+                    }
+                }
+            }
+        }
+       
+    }
+
+    
+   
+}

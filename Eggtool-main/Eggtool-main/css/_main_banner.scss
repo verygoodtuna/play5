@@ -1,0 +1,37 @@
+.main_banner {
+    width: 100%;
+    .banner_slide {
+        
+        overflow: hidden;
+        position: relative;
+
+        .swiper-wrapper {
+            height: 500rem;
+
+            .banner01 {
+                background: url(../imges/mba01.png)no-repeat center center/cover;
+            }
+            
+            .banner02 {
+                background: url(../imges/mba02.png)no-repeat center center/cover;
+            }
+            .banner03 {
+                background: url(../imges/mba03.png)no-repeat center center/cover;
+            }
+
+            .txt {
+                max-width: 1200rem;
+                width: 100%;
+                margin: 0 auto;
+                padding: 0 15rem;
+
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+            }
+        }
+       
+
+    }
+}
